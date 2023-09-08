@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Register Form</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+  <main>
+    <div class="container">
+      <h1 class="text-center mb-4 font-italic">Register Form</h1>
+      <form onsubmit="event.preventDefault();">
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <input id="first_name" type="text" class="form-control" placeholder="First Name">
+          </div>
+          <div class="form-group col-md-6">
+            <input id="last_name" type="text" class="form-control" placeholder="Last Name">
+          </div>
+        </div>
+        <div class="form-group">
+          <input id="email" type="email" class="form-control" placeholder="Email">
+        </div>
+        <div class="form-row">
+        <div class="form-group col-md-11">
+          <input id="password" type="password" class="form-control" placeholder="Password">
+        </div>
+        <div style="cursor: pointer;" id="show" class="col-md-1 pt-1">
+          Show
+        </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <input id="age" type="text" class="form-control" placeholder="Age">
+          </div>
+          <div class="form-group col-md-6">
+            <select id="country" class="form-control">
+              <option>Egypt</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text">Upload Your CV</span>
+          </div>
+          <div class="custom-file">
+            <input id="cv" type="file" class="custom-file-input">
+            <label class="custom-file-label">Choose file</label>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <textarea id="message" class="form-control" placeholder="Your Message" rows="10"></textarea>
+        </div>
+
+        <button type="reset" class="btn btn-danger">Reset</button>
+        <button id="submit" onclick="register()" type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+  </main>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>

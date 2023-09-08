@@ -1,0 +1,136 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+
+}
+.parent{
+
+    width: 1024px;
+    margin: auto;
+    
+}
+
+.header{
+  
+background-image: url(../images/images/bg.jpg);
+height: 118px;
+background-repeat: no-repeat;
+
+
+}
+
+.social-media img{
+    opacity: 0.5;
+}
+.social-media{
+
+    width:200px ;
+    float: right;
+    margin: 20px;
+    
+    }
+
+.social-media img:hover{
+    opacity: 1;
+}
+ .nav li{
+    display: inline-block;
+    color: antiquewhite;
+
+padding: 10px;
+}
+.nav li:hover{
+    background-color: blue;
+}
+
+.main{
+    background-color:rgb(140, 132, 132);
+    padding: 10px;
+
+}
+.slider{
+    margin-bottom: 10px;
+}
+.slider img{
+    width: 100%;
+}
+.clearfix{
+    clear: both;
+}
+.section1{
+    margin-left: 2%;
+    width: 70%;
+    float: left;
+    
+    }
+ h1{
+   padding: 5px;
+    color: rgb(68, 68, 173);
+    }
+    .section1 img{
+        border: 1px solid white;
+        padding: 5px;
+        margin-top: 15px;
+        margin-left: 30px;
+        
+    }
+    .section1 p {
+       
+        text-align: justify;
+        
+        padding: 15px;
+        }
+        .section1 li{
+            margin-left: 40px;
+            
+        }
+        a{
+            color: white;
+        }
+        
+
+.section2{
+width: 25%;
+float: right;
+}
+.section2 h3{
+    margin-top: 5px;
+color:darkorange ;
+ }
+ 
+ .section2 h4{
+    color: rgb(68, 68, 173);
+    margin-bottom: 10px;
+ }      
+
+ .section3{
+    margin-top: 40px;
+
+ }
+ .copyright{
+text-align: center;
+margin: 15px 0px;
+
+ }
+ .p1 p{
+    margin: 20px 0px;
+    
+     }
+     .imges{
+        width: 870px;
+        margin: 40px 80px;
+        text-align: center;
+     }
+     .imges img{
+        padding: 5px;
+        border:1px solid whitesmoke;
+    
+     }
+     .p3{
+    
+    margin: 40px 0px;
+    
+     }

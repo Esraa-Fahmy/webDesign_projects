@@ -1,0 +1,22 @@
+main {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)),
+        url('../images/1.jpg')
+        center center;
+        background-size: cover;
+
+}
+
+.choose-us {
+    background-color: #d5eef5;
+}
+
+footer {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)),
+        url('../images/6.png')
+        center center;
+        background-size: cover;
+    }

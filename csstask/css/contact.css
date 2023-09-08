@@ -1,0 +1,354 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+
+/* Start Header Section */
+header {
+    background-color: white;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+header nav .navigations ul {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+
+nav .navigations ul li a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 30px 15px;
+    color: black;
+}
+
+.blog {
+    background-color: #f47e60;
+    margin-top: 20px;
+    padding: 10px 20px !important;
+}
+
+.blog:hover li {
+    background-color: white;
+}
+
+
+
+nav .navigations ul li:hover {
+    background-color: #1aa3d9;
+}
+
+/* End Header Section */
+
+/* Start Main Section */
+
+main {
+    height: 50vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background: url('../images/bg.jpg');
+    background-size: cover;
+}
+
+main h1 {
+    text-transform: uppercase;
+    color: #cbcdca;
+    font-size: 5rem;
+}
+
+/* End Main Section */
+
+/* Start contact us Section */
+
+.contact-us {
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact-us h1 {
+    color: #1c8cbe;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.contact-us > p {
+    text-align: center;
+    width: 75%;
+    margin-bottom: 50px;
+}
+
+.contact-us .main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+} 
+
+.contact-us .main span {
+    color: red;
+    font-weight: bold;
+}
+
+.contact-us .main .form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-right: 2px solid grey;
+    padding-right: 50px;
+    width: 50%;
+}
+
+.contact-us .main .form .form-input {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.form-input label {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.form-input input {
+    width: 70%;
+    height: 20px;
+    padding: 5px;
+    border: none;
+    outline: 1px solid grey;
+}
+.form-input textarea {
+    width: 70%;
+    padding: 5px;
+    border: none;
+    outline: 1px solid grey;
+
+}
+.form-input input:focus,  .form-input textarea:focus {
+    outline: 1px solid red;
+}
+
+.form .code {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.code img {
+    width: 45%;
+}
+
+.code .form-input {
+    width: 50%;
+}
+
+.form .code label {
+    text-transform: none;
+}
+
+.form .code input {
+    height: 10px;
+    width: 80%;
+}
+
+
+.form button {
+    background-color: #1f89c7;
+    color: white;   
+    padding: 5px 20px;
+    border: none;
+    margin-left: 60%;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.contact-us .main .follow {
+    padding-left: 50px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+.contact-us .follow-info {
+    display: flex;
+}
+
+.contact-us .follow-info .info-icons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: grey;
+    padding: 10px;
+}
+
+.info-icons i {
+    font-size: 2rem;
+    color: white;
+}
+
+
+.contact-us .follow-info .info {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.contact-us .info span{
+    color: #65add5;
+}
+
+.contact-us .info p {
+    width: 60%;
+    margin-top: 7px;
+    margin-bottom: 4px;
+
+}
+
+.contact-us .info a {
+    color: #65add5;
+    font-weight: bold;
+}
+
+
+.follow-map img{
+    width: 50%;
+}
+
+.follow-social {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.follow-social h2 {
+    text-transform: uppercase;
+}
+
+.follow-social .social-icons {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.follow-social .social-icons i {
+    font-size: 2.5rem;
+}
+
+.social-icons a {
+    text-decoration: none;
+}
+
+.social-icons .fb {
+    color: #3b5998;
+}
+.social-icons .tw {
+    color:  #55acee;
+}
+.social-icons .instagram {
+    color:  #e95950;
+}
+.social-icons .google {
+    color:  #dd4b39;
+}
+
+.social-icons .yt {
+    color: #ff0000;
+}
+
+
+/* End contact us Section */
+
+/* Start footer */
+
+footer {
+    background-color: #2e3e4e;
+    padding: 40px 0;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .container .feeds, .news, .recent, .contact {
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+footer .feeds h3, .news h3, .recent h3, .contact h3 {
+    font-size: 1.5rem;
+    color: #f47e60;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+footer .feeds p, .feeds span, .news p, .recent span, .recent p, .contact span, .contact p{
+    color: #85878f;
+}
+
+footer .news h6 {
+    color: #1f7cc4;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+footer .news input {
+    width: 100%;
+    height: 25px;
+    margin-bottom: 10px;
+}
+
+footer .news button {
+    background-color: #1f89c7;
+    color: white;   
+    padding: 5px 10px;
+    border: none;
+    margin-left: 75%;
+    cursor: pointer;
+}
+
+footer hr {
+    width: 100%;
+    margin: 10px 0;
+}
+footer .feeds a, .recent a {
+    text-decoration: none;
+    color: #1f7cc4;
+}
+footer .contact .main {
+    margin-bottom:30px;
+    display:flex;
+    gap: 10px;
+}
+
+footer .contact .content {
+    display: flex; flex-direction: column;
+}
+footer .contact i {
+    color: #1f7cc4;
+    font-size: 2.5rem
+}
+
+
+/* End footer */
